@@ -14,16 +14,15 @@ int main()
       
       for(int row=1; row<=n; row++){
       	
-      		for(int col=1; col<=n - row; col++){
-      			printf(" ");
-			  }
+      		for(int col=1; col<= n; col++){
       	
-      		for(int col=1; col<=2*row - 1; col++){
-      			//cout<<" "<<col;
-      			printf("%d",col);
-			  }
-			  printf("\n");
-	  }
-  
+	      		if(row==1 || row==n || col==1 ||col==n)
+	      			//special char
+	      				printf("*");
+	      		else
+	      			printf(" ");
+	      	}
+				printf("\n");
+		}		
     return 0; 
 } 
