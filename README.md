@@ -1,1 +1,1 @@
-# Pattern_Pyramid
+# Pattern
