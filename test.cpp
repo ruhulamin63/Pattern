@@ -16,7 +16,7 @@ int main()
       	
       		for(int col=1; col<= n; col++){
       	
-	      		if(col==1 || row==n || col==row)
+	      		if(col==row || row+col==n+1)
 	      			//special char
 	      				printf("*");
 	      		else
